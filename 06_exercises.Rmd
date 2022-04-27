@@ -284,3 +284,5 @@ large_dept %>%
 ```  
 
 **DID YOU REMEMBER TO UNCOMMENT THE OPTIONS AT THE TOP?**
+
+Github link: https://github.com/thuang111/ting_exercise_6
