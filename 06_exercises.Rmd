@@ -117,7 +117,6 @@ colors = scales::col_numeric(
       ) %>% as.character()
 ```
 
-![](garden_table.html){width=600, height=1000}
 
   
 5. Use `patchwork` operators and functions to combine at least two graphs using your project data or `garden_harvest` data if your project data aren't read.
@@ -155,7 +154,7 @@ c2 <- cancer %>%
   theme(legend.position = "none")
 ```
  
-```{r, fig.height = 10, fig.alt = "Bar Graph displaying number of cancer deaths in the US in 1990 by type of cancer for the purpose of seeing which types of cancers caused the most and least deaths and line graph displaying the total number of cancer deaths in the US over time for the purpose of comparison."}
+```{r, fig.height = 10, fig.width = 10,fig.alt = "Bar Graph displaying number of cancer deaths in the US in 1990 by type of cancer for the purpose of seeing which types of cancers caused the most and least deaths and line graph displaying the total number of cancer deaths in the US over time for the purpose of comparison."}
 c1/c2
 ```
  
